@@ -6,4 +6,3 @@ module.exports = app => {
     app.get("/antecedentes/aleatorias", antecedentes.antecedenteAleatoria);
   
   };
-  

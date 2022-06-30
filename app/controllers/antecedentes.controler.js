@@ -1,5 +1,5 @@
 const Antecedentes = require("../models/antecedentes.model.js");
-const db = require("../models/db.js");
+const db = require("../../../app/models/db.js");
 
 
 // Retorna todas os antecedentes da tabela.
