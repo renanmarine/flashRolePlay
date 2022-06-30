@@ -1,9 +1,9 @@
-const sql = require("../../../app/models/db.js");
+const sql = require("./db.js");
 
 
 const Antecedente = function(antecedentes) {
-  this.id_antecedente = antecedente.idAntecedente;
-  this.nome_antecedente = antecedente.nomeAntecedente;
+  this.id_antecedente = antecedentes.idAntecedente;
+  this.nome_antecedente = antecedentes.nomeAntecedente;
 };
 
 

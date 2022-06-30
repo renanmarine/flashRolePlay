@@ -1,5 +1,5 @@
 module.exports = app => {
-    const antecedentes = require("../controllers/antecedentes.controler.js");
+    const antecedentes = require("../controllers/antecedentes.controller.js");
   
     app.get("/antecedentes/findAll", antecedentes.findAll);
   
