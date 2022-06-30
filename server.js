@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
 
 require("./app/routes/racas.routes.js")(app);
 require("./app/routes/classes.routes.js")(app);
+require("./app/routes/antecedentes.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 3000;
